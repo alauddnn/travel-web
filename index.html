@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Berkah Tour & Travel</title>
+  <link rel="stylesheet" href="style.css"/>
+</head><a
+  href="https://wa.me/628889815591"
+  class="wa-float"
+  target="_blank"
+  aria-label="Chat WhatsApp"
+>
+  <img src="images/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+    <!-- LOGO -->
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="Berkah Tour">
+    </a>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- MENU -->
+    <nav class="nav-menu" id="navMenu">
+      <a href="#">Home</a>
+      <a href="#">Paket Wisata</a>
+      <a href="#">Sewa Transport</a>
+      <a href="#">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>
+      Paket Wisata Terbaik<br />
+      Berkahtourandtravel.com
+    </h1>
+
+    <p>
+      Liburan asik tanpa harus mikirin ini-itu karena agen wisata Jogja
+      Berkahtourandtravel.com sudah punya <strong>paket wisata komplit</strong> biar
+      hari liburmu beneran jadi liburan asik dengan tour planner dan guide
+      terbaik. Langsung buat <strong>paket wisata custom</strong> atau pilih
+      paketnya sekarang!
+    </p>
+
+    <a href="section destinasi" class="btn-hero">Lihat Paket</a>
+  </div>
+</section>
+
+
+<!-- DESTINASI WISATA -->
+<section class="section destinasi">
+  <h2>DESTINASI WISATA</h2>
+  <p class="subtitle">
+    Kami menyediakan berbagai paket liburan dan tour sesuai dengan keinginan Anda
+  </p>
+
+  <!-- ROW 1 (4 CARD) -->
+  <div class="destinasi-grid four">
+    <div class="dest-card" style="background-image:url('images/jogja.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>JOGJA</h3>
+      <a href="paket-jogja.html" class="btn-card">Lihat Paket</a>
+    </div>
+
+    <div class="dest-card" style="background-image:url('images/bandung.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>BANDUNG</h3>
+      <a href="paket-bandung.html" class="btn-card">Lihat Paket</a>
+    </div>
+
+    <div class="dest-card" style="background-image:url('images/dieng.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>DIENG</h3>
+      <a href="paket-dieng.html" class="btn-card">Lihat Paket</a>
+    </div>
+
+    <div class="dest-card" style="background-image:url('images/malang.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>MALANG</h3>
+      <a href="paket-malang.html" class="btn-card">Lihat Paket</a>
+    </div>
+  </div>
+
+  <!-- ROW 2 (3 CARD) -->
+  <div class="destinasi-grid three">
+    <div class="dest-card" style="background-image:url('images/bromo.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>BROMO</h3>
+      <a href="paket-bromo.html" class="btn-card">Lihat Paket</a>
+    </div>
+
+    <div class="dest-card" style="background-image:url('images/bali.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>BALI</h3>
+      <a href="paket-bali.html" class="btn-card">Lihat Paket</a>
+    </div>
+
+    <div class="dest-card" style="background-image:url('images/lombok.jpg');">
+      <span class="label">PAKET WISATA</span>
+      <h3>LOMBOK</h3>
+      <a href="paket-lombok.html" class="btn-card">Lihat Paket</a>
+    </div>
+  </div>
+</section>
+<section class="section destinasi">
+  <h2>PAKET WISATA LUAR NEGERI</h2>
+  <p class="subtitle">
+    Selain paket wisata dalam negeri (Domestik), kami juga menyediakan pilihan
+    paket luar negeri (Internasional) yang siap menemani kamu explore dunia.
+  </p>
+
+  <div class="destinasi-grid four">
+    <!-- THAILAND -->
+    <div class="dest-card" style="background-image:url('images/thailand.jpg')">
+      <span class="label">PAKET TOUR</span>
+      <h3>THAILAND</h3>
+      <button class="btn-card" onclick="openModal()">
+  Lihat Paket
+</button>
+
+    </div>
+
+    <!-- MALAYSIA -->
+    <div class="dest-card" style="background-image:url('images/malaysia.jpg')">
+      <span class="label">PAKET TOUR</span>
+      <h3>MALAYSIA</h3>
+      <button class="btn-card" onclick="openModal()">
+  Lihat Paket
+</button>
+
+    </div>
+
+    <!-- SINGAPORE -->
+    <div class="dest-card" style="background-image:url('images/singapore.jpg')">
+      <span class="label">PAKET TOUR</span>
+      <h3>SINGAPORE</h3>
+      <button class="btn-card" onclick="openModal()">
+  Lihat Paket
+</button>
+
+    </div>
+
+    <!-- JEPANG -->
+    <div class="dest-card" style="background-image:url('images/jepang.jpg')">
+      <span class="label">PAKET TOUR</span>
+      <h3>JEPANG</h3>
+      <button class="btn-card" onclick="openModal()">
+  Lihat Paket
+</button>
+
+    </div>
+  </div>
+  <!-- ===== MODAL ===== -->
+<div id="paketModal" class="modal-overlay">
+  <div class="modal-box">
+
+    <button class="modal-close" onclick="closeModal()">×</button>
+
+    <h3>Pilih Opsi Paket</h3>
+    <p class="modal-subtitle">
+      Hubungi kami atau lihat estimasi harga paket perjalananmu
+    </p>
+
+    <div class="modal-grid">
+
+      <!-- CARD HARGA -->
+      <div class="modal-card">
+        <h4>💰 Estimasi Harga</h4>
+        <p>
+          Dapatkan estimasi harga paket wisata sesuai destinasi dan durasi
+          perjalanan yang kamu inginkan.
+        </p>
+        <button class="btn-outline">
+          Lihat Harga
+        </button>
+      </div>
+
+      <!-- CARD WHATSAPP -->
+      <div class="modal-card highlight">
+        <h4>💬 Konsultasi WhatsApp</h4>
+        <p>
+          Chat langsung dengan admin kami untuk tanya paket, itinerary,
+          dan custom perjalanan.
+        </p>
+        <a
+          href="https://wa.me/6281234567890"
+          target="_blank"
+          class="btn-whatsapp"
+        >
+          Chat WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- CUSTOM -->
+<section class="section paket-custom">
+  <h2>PAKET WISATA CUSTOM</h2>
+  <p class="subtitle">
+    Paket liburan fleksibel yang dapat kamu pilih dan bisa digabung dengan paket tour
+    dengan destinasi tertentu
+  </p>
+
+  <div class="slider-wrapper">
+    <button class="slider-btn prev">‹</button>
+
+    <div class="slider-track" id="customSlider">
+      <div class="dest-card" style="background-image:url('images/jepang.jpg')">
+        <span class="label">PAKET TOUR</span>
+        <h3>PAKET TOUR</h3>
+        <a href="#" class="btn-card">Lihat Paket</a>
+      </div>
+
+      <div class="dest-card" style="background-image:url('images/family.jpg')">
+        <span class="label">PAKET</span>
+        <h3>PAKET GATHERING</h3>
+        <a href="#" class="btn-card">Lihat Paket</a>
+      </div>
+
+      <div class="dest-card" style="background-image:url('images/honeymoon.jpg')">
+        <span class="label">PAKET</span>
+        <h3>HONEYMOON</h3>
+        <a href="#" class="btn-card">Lihat Paket</a>
+      </div>
+
+      <div class="dest-card" style="background-image:url('images/studytour.jpg')">
+        <span class="label">PAKET</span>
+        <h3>STUDY TOUR</h3>
+        <a href="#" class="btn-card">Lihat Paket</a>
+      </div>
+    </div>
+
+    <button class="slider-btn next">›</button>
+  </div>
+</section>
+<section class="paket-artikel">
+
+  <!-- ===== INTRO ===== -->
+  <div class="paket-intro">
+    <div class="intro-grid">
+
+      <div class="intro-text">
+        <p>
+          <strong>Berkahtourandtravel</strong> menyediakan berbagai macam paket wisata
+          untuk segala kebutuhan liburanmu. Paket yang kami tawarkan yaitu :
+        </p>
+
+        <ul>
+          <li>Paket Wisata</li>
+          <li>Paket Tour</li>
+          <li>Paket Gathering</li>
+          <li>Paket Honeymoon</li>
+          <li>Study Tour</li>
+        </ul>
+
+        <p>
+          Selain paket wisata yang telah ready, kami juga menawarkan
+          <strong>paket custom tour</strong> untuk mewujudkan rencana liburan impianmu.
+        </p>
+
+        <button id="toggleArtikel" class="btn-primary">
+          Selengkapnya
+        </button>
+      </div>
+
+      <div class="intro-image">
+        <img src="images/3.jpg" alt="HappyTour Promo">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== ARTIKEL (HIDDEN AWALNYA) ===== -->
+  <div id="artikelContent" class="artikel-content">
+    <h2>Ahlinya Paket Wisata Jogja Paling Berkesan</h2>
+
+    <p>
+      <strong>Paket wisata Jogja</strong> dari Berkahtourandtravel bisa menjadi pilihan
+      yang tepat untuk mendapatkan pengalaman berwisata yang berkesan...
+    </p>
+
+    <p>
+      Ada banyak destinasi wisata menarik di Jogja seperti Candi Prambanan,
+      Candi Borobudur, Pantai Parangtritis, Tebing Breksi, dan masih banyak lagi.
+    </p>
+
+    <h3>A. Tour Guide Berpengalaman Jadi Serasa Teman</h3>
+    <p>
+      Salah satu keuntungan memilih paket wisata Jogja dari Berkahtourandtravel adalah
+      adanya guide atau pemandu wisata yang berpengalaman.
+    </p>
+
+    <h3>B. Harga Paket Wisata Paling Fleksibel</h3>
+    <p>
+      Dengan paket wisata custom, kamu bisa memilih destinasi dan menyesuaikan
+      budget sesuai kebutuhan.
+    </p>
+
+    <h3>C. Berkahtourandtravel Menjangkau Destinasi Wisata Populer</h3>
+    <p>
+      Berkahtourandtravel menjangkau berbagai destinasi populer seperti Jogja, Bandung,
+      Dieng, Malang, Bromo, Bali, dan Lombok.
+    </p>
+  </div>
+
+</section>
+
+
+
+<section class="section alasan">
+  <div class="alasan-overlay"></div>
+
+  <div class="alasan-container">
+    <h2>MENGAPA HARUS MEMILIH BERKAHTOURANDTRAVEL.COM?</h2>
+
+    <div class="alasan-grid">
+      <!-- KIRI ATAS -->
+      <div class="alasan-item">
+        <div class="icon">📋</div>
+        <h3>Beragam Pilihan</h3>
+        <p>
+          Kami menyediakan berbagai pilihan paket sesuai kebutuhan Anda
+          selama berwisata.
+        </p>
+      </div>
+
+      <!-- KANAN ATAS -->
+      <div class="alasan-item">
+        <div class="icon">🤝</div>
+        <h3>Harga Bersahabat</h3>
+        <p>
+          Tidak perlu khawatir, kami akan membantu merencanakan wisata
+          sesuai dengan budget Anda.
+        </p>
+      </div>
+
+      <!-- KIRI BAWAH -->
+      <div class="alasan-item">
+        <div class="icon">⭐</div>
+        <h3>Berpengalaman</h3>
+        <p>
+          Perusahaan kami sudah berpengalaman lebih dari 5 tahun
+          di dunia pariwisata.
+        </p>
+      </div>
+
+      <!-- KANAN BAWAH -->
+      <div class="alasan-item">
+        <div class="icon">🛡️</div>
+        <h3>Terpercaya</h3>
+        <p>
+          Legalitas dan kantor jelas serta banyak testimoni pelanggan
+          yang puas dengan layanan kami.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section review-google">
+  <div class="review-container">
+
+    <!-- KIRI -->
+    <div class="review-summary">
+      <div class="logo">
+        <img src="images/logo.png" alt="Berkahtour">
+      </div>
+
+      <h3>BERKAH TOUR</h3>
+
+      <div class="stars">★★★★★</div>
+      <p class="count">414 Google ulasan</p>
+
+      <a href="#" class="btn-outline">Menulis ulasan</a>
+    </div>
+
+    <!-- KANAN -->
+    <div class="review-slider">
+
+      <button class="review-btn prev">‹</button>
+
+      <div class="review-track">
+
+        <!-- CARD -->
+        <div class="review-card">
+          <div class="review-head">
+            <div class="avatar">A</div>
+            <div>
+              <strong>Audittya Maulana</strong>
+              <span>2 bulan yang lalu</span>
+            </div>
+            <img src="images/google.png" class="google-icon">
+          </div>
+
+          <div class="stars">★★★★★</div>
+
+          <p>
+            4th trip with Happy Tour. Fun and happy in each tour destination
+          </p>
+
+          <a href="#">Baca lebih lanjut</a>
+        </div>
+
+        <div class="review-card">
+          <div class="review-head">
+            <div class="avatar">S</div>
+            <div>
+              <strong>Shee Foto</strong>
+              <span>2 bulan yang lalu</span>
+            </div>
+            <img src="images/google.png" class="google-icon">
+          </div>
+
+          <div class="stars">★★★★★</div>
+
+          <p>
+            Terimakasih Happy Tour telah memberikan kesempatan dan kepercayaan...
+          </p>
+
+          <a href="#">Baca lebih lanjut</a>
+        </div>
+
+        <div class="review-card">
+          <div class="review-head">
+            <div class="avatar">T</div>
+            <div>
+              <strong>timplek squad</strong>
+              <span>2 bulan yang lalu</span>
+            </div>
+            <img src="images/google.png" class="google-icon">
+          </div>
+
+          <div class="stars">★★★★★</div>
+
+          <p>
+            Layanan memuaskan untuk semua paket tour wisata bersama...
+          </p>
+
+          <a href="#">Baca lebih lanjut</a>
+        </div>
+
+        <div class="review-card">
+          <div class="review-head">
+            <div class="avatar">M</div>
+            <div>
+              <strong>Moch Soleh</strong>
+              <span>2 bulan yang lalu</span>
+            </div>
+            <img src="images/google.png" class="google-icon">
+          </div>
+
+          <div class="stars">★★★★★</div>
+
+          <p>
+            Tour yang sangat menyenangkan bersama Happy Tour rute Malang...
+          </p>
+
+          <a href="#">Baca lebih lanjut</a>
+        </div>
+
+      </div>
+
+      <button class="review-btn next">›</button>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="trusted-by">
+  <div class="container">
+    <h2>Telah Dipercaya Oleh</h2>
+
+    <div class="trusted-grid">
+      <img src="img/logo/kemenparekraf.png" alt="Kemenparekraf">
+      <img src="img/logo/pupr.png" alt="PUPR">
+      <img src="img/logo/dprd.jpg" alt="DPRD">
+      <img src="img/logo/Abipraya.jpg" alt="Abipraya">
+      <img src="img/logo/cowater.jpg" alt="Cowater">
+      <img src="img/logo/dishub.png" alt="Dishub">
+      <img src="img/logo/pln.png" alt="PLN">
+      <img src="img/logo/rri-bandung.png" alt="RRI Bandung">
+      <img src="img/logo/rri-jogja.jpg" alt="RRI Yogyakarta">
+
+      <img src="img/logo/waskita.png" alt="Waskita">
+      <img src="img/logo/diy.png" alt="DIY">
+      <img src="img/logo/ugm.jpg" alt="UGM">
+      <img src="img/logo/sanata-dharma.png" alt="Sanata Dharma">
+      <img src="img/logo/rocket-chicken.png" alt="Rocket Chicken">
+      <img src="img/logo/pspp.jpg" alt="PSPP">
+      <img src="img/logo/aca.jpg" alt="ACA Asuransi">
+      <img src="img/logo/pp.jpg" alt="PP Construction">
+      <img src="img/logo/kompas.png" alt="Kompas Gramedia">
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer full">
+  <div class="footer-grid">
+    <div>
+      <h3>PT Berkah Abadi Pandu Gumilang</h3>
+      <p>
+        Jl Genuk – Pamongan KM 3, Kalisari, Sayung,  
+        Demak, Jawa Tengah
+      </p>
+      <p>Email: Berkahabaditourdantravel9090@gmail.com</p>
+      <p>Telp / WA: 08889815591</p>
+    </div>
+
+    <div>
+      <h4>Kontak</h4>
+      <p>📞 08889815591</p>
+      <p>✉️ Berkahabaditourdantravel9090@gmail.com</p>
+    </div>
+
+    <div>
+      <h4>Website</h4>
+      <p>Berkahtourandtravel.com</p>
+    </div>
+  </div>
+
+  <p class="copyright">
+    © 2026 PT Berkah Abadi Pandu Gumilang
+  </p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
